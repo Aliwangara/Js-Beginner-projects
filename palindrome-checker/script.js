@@ -21,6 +21,8 @@ check.addEventListener('click', function(){
             alert('not today')
         }
 
+        inputEl.value = ''
+
 })
 function reverseString(str){
 
